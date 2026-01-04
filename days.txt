@@ -1,2 +1,3 @@
 Day 1: Welcome Message Generator: Printing and "Hello World"
 Day 2: Personalized greeting program: variables and data types
+Día 3: Calculadora simple: entrada del usuario y formato de cadena
