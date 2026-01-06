@@ -2,3 +2,4 @@ Day 1: Welcome Message Generator: Printing and "Hello World"
 Day 2: Personalized greeting program: variables and data types
 Day 3: Simple calculator: user input and string formatting
 Day 4: Number comparator: if-else statements
+Day 5: Countdown timer: loops (for and while)
