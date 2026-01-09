@@ -5,3 +5,4 @@ Day 4: Number comparator: if-else statements
 Day 5: Countdown timer: loops (for and while)
 Day 6: Math quiz game: functions
 Day 7: Shopping List: Lists
+Day 8: Contact list: dicts 
