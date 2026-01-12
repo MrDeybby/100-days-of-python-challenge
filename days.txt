@@ -6,4 +6,5 @@ Day 5: Countdown timer: loops (for and while)
 Day 6: Math quiz game: functions
 Day 7: Shopping List: Lists
 Day 8: Contact list: dicts
-Day 9: Ingredient Checker: Tuples and Sets 
+Day 9: Ingredient Checker: Tuples and Sets
+Day 10: Note-taking app: file management
