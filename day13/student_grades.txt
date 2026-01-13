@@ -1,0 +1,15 @@
+=== Student Grades ===
+Student 1: Score: = 70, Grade = C
+Student 2: Score: = 63, Grade = F
+Student 3: Score: = 92, Grade = A
+Student 4: Score: = 100, Grade = A
+Student 5: Score: = 84, Grade = B
+Student 6: Score: = 86, Grade = B
+Student 7: Score: = 72, Grade = C
+Student 8: Score: = 60, Grade = F
+
+=== Passing Students ===
+70, 92, 100, 84, 86, 72
+
+=== Failling Students ===
+63, 60
