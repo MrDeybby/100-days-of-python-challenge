@@ -40,6 +40,9 @@ def main():
 
         if choise == "5":
             break
+        
+        if choise not in {"1", "2", "3", "4"}:
+            continue
 
         try:
             number1 = int(input("Number 1: "))
