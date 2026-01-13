@@ -70,12 +70,24 @@ def main():
         if choice == "7":
             break
 
-        try:
-            value = float(input("Enter temperature value: "))
-        except ValueError:
-            print("Value must be a number")
+        if choice in conversion_map:
+            
+
+            try:
+                value = float(input("Enter temperature value: "))
+            except ValueError:
+                print("Value must be a number")
+                input("Press Enter to continue...")
+                continue
+        
+            conversion_type = conversion_map[choice]
+            result = convert_temperature(value, conversion_type)
+            print(f"Converted temperature: {result}")
             input("Press Enter to continue...")
-            continue
+        else:
+            print("Invalid choice")
+            input("Press Enter to continue...")
+
 
         conversion_map = {
             "1": "C to F",
@@ -86,14 +98,6 @@ def main():
             "6": "K to F",
         }
 
-        if choice in conversion_map:
-            conversion_type = conversion_map[choice]
-            result = convert_temperature(value, conversion_type)
-            print(f"Converted temperature: {result}")
-            input("Press Enter to continue...")
-        else:
-            print("Invalid choice")
-            input("Press Enter to continue...")
 
 
 if __name__ == "__main__":
