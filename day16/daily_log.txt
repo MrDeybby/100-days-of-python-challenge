@@ -1,0 +1,3 @@
+Day 1: Learning python
+Day 2: Learning HTML
+Day 3: Learning HTML and CSS
