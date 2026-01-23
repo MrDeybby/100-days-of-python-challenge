@@ -1,0 +1,10 @@
+[
+    {
+        "task": "Learning Python",
+        "status": "complete"
+    },
+    {
+        "task": "Complete math's task",
+        "status": "incomplete"
+    }
+]
