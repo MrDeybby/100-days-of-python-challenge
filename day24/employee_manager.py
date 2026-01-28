@@ -1,35 +1,38 @@
 import os
 
+
 class Employee:
-    
+
     def __init__(self, name, salary):
         self.name = name
         self.salary = salary
-    
+
     def info(self):
         print(f"Name: {self.name}")
         print(f"Salary: {self.salary}")
-    
+
+
 class Manager(Employee):
-    
+
     def __init__(self, name, salary, department):
         super().__init__(name, salary)
         self.department = department
-    
+
     def info(self):
         super().info()
         print(f"Department: {self.department}")
 
 
 class Developer(Employee):
-    
+
     def __init__(self, name, salary, programming_language):
         super().__init__(name, salary)
         self.programming_language = programming_language
-        
+
     def info(self):
         super().info()
         print(f"Language: {self.programming_language}")
+
 
 def menu():
     print("=== Employee Manager ===")
@@ -43,7 +46,7 @@ def create_employee():
     print("1. Add General Employee")
     print("2. Add Manager")
     print("3. Add Developer")
-    
+
     choice = input("Enter your choice (1-5): ").strip()
     name = input("What is employee's name: ")
     try:
@@ -51,7 +54,7 @@ def create_employee():
     except ValueError:
         print("Salary must be in numbers")
         return
-    
+
     if choice == "1":
         employee = Employee(name=name, salary=salary)
     elif choice == "2":
@@ -59,16 +62,19 @@ def create_employee():
         employee = Manager(name=name, salary=salary, department=department)
     elif choice == "3":
         programming_language = input("Programming Language: ")
-        employee = Developer(name=name, salary=salary, programming_language=programming_language)
+        employee = Developer(
+            name=name, salary=salary, programming_language=programming_language
+        )
     else:
         return
-    
+
     print("Employee Created")
     return employee
 
+
 def main():
     employees = []
-    
+
     while True:
         os.system("cls")
         menu()
@@ -86,15 +92,16 @@ def main():
                 print("There are no employees on the list.")
                 input("Press Enter to continue...")
                 continue
-            
+
             for employee in employees:
                 employee.info()
                 print("")
             input("Press Enter to continue...")
-        
+
         elif choice == "3":
             print("Exiting the program.")
             break
-            
+
+
 if __name__ == "__main__":
     main()
