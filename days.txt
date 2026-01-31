@@ -24,3 +24,4 @@ Day 23: Library system: constructors and methods
 Day 24: Employee Management: Inheritance
 Day 25: Animal Sound Simulator: Polymorphism
 Day 26: Secure user profile: encapsulation
+Day 27: Inventory: static and class methods
