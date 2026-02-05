@@ -31,3 +31,4 @@ Day 30: Click counter: buttons and events
 Day 31: BMI Calculator: Input Fields
 Day 32: Sketchpad: Canvas widgets
 Day 33: Login System: Message Boxes
+Day 34: GUI To-Do List: Advanced Widgets
