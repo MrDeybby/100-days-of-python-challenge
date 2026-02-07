@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <h1>Welcome to my Blog</h1>
+        </header>
+
+        <div class="posts">
+
+            {% for post in posts %}
+            <div class="post-card">
+                <h2 class="post-title">{{ post.title }}</h2>
+                <p class="post-content">{{ post.content }}</p>
+                <a class="read-btn" href="/post/{{ post.id }}">Read</a>
+            </div>
+            {% endfor %}
+
+        </div>
+
+        <footer class="footer">
+            <h4>Made by <a target="_blank" href="https://github.com/MrDeybby/">MrDeybby</a></h4>
+        </footer>
+
+    </div>
+
+</body>
+</html>
