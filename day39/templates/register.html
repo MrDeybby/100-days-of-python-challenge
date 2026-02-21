@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro de Usuarios</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 680px; margin: 2rem auto; padding: 0 1rem; }
+    form { display: grid; gap: 0.75rem; margin-bottom: 1.5rem; }
+    input { padding: 0.6rem; border: 1px solid #ccc; border-radius: 6px; }
+    button { padding: 0.7rem; border: none; border-radius: 6px; background: #0d6efd; color: white; cursor: pointer; }
+    .msg { padding: 0.7rem; border-radius: 6px; margin-bottom: 0.7rem; }
+    .error { background: #ffe3e3; color: #b00020; }
+    .success { background: #e6ffed; color: #166534; }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <h1>Registro de Usuarios</h1>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      {% for category, message in messages %}
+        <div class="msg {{ category }}">{{ message }}</div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  <form method="post" action="{{ url_for('register') }}">
+    <input type="text" name="name" placeholder="Nombre" required />
+    <input type="email" name="email" placeholder="Correo" required />
+    <input type="password" name="password" placeholder="Contrasena" required />
+    <button type="submit">Registrarme</button>
+  </form>
+
+  <h2>Usuarios registrados</h2>
+  {% if users %}
+    <ul>
+      {% for user in users %}
+        <li>{{ user.name }} - {{ user.email }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No hay usuarios registrados aun.</p>
+  {% endif %}
+</body>
+</html>
