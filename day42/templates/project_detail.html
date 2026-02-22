@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}{{ project.title }} | Portafolio{% endblock %}
+
+{% block content %}
+<section>
+  <p class="badge">Proyecto destacado</p>
+  <h1>{{ project.title }}</h1>
+  <p>{{ project.summary }}</p>
+
+  <article class="card">
+    <h2>Tecnologias</h2>
+    <div class="tags">
+      {% for tag in project.stack %}
+        <a class="tag" href="{{ url_for('projects_by_tag', tag=tag) }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    <h2>Impacto</h2>
+    <p>{{ project.impact }}</p>
+  </article>
+
+  <a class="btn" href="{{ url_for('projects') }}">Volver a proyectos</a>
+</section>
+{% endblock %}

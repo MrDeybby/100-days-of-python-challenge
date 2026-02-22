@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio | Portafolio{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <p class="badge">Inicio</p>
+  <h1>Hola, soy analista de datos y programador Python.</h1>
+  <p>
+    Transformo datos en decisiones, dashboards y automatizaciones que generan impacto real.
+  </p>
+</section>
+
+<section class="grid two">
+  <article class="card">
+    <h2>Introduccion</h2>
+    <p>
+      Me especializo en analitica, visualizacion de datos y desarrollo de soluciones con Flask y Python.
+    </p>
+  </article>
+
+  <article class="card">
+    <h2>Caracteristicas</h2>
+    <ul>
+      <li>Análisis exploratorio y modelado de datos.</li>
+      <li>Desarrollo de APIs y aplicaciones web con Flask.</li>
+      <li>Automatización de reportes y procesos ETL.</li>
+    </ul>
+  </article>
+</section>
+
+<section>
+  <div class="section-head">
+    <h2>Proyectos destacados</h2>
+    <a href="{{ url_for('projects') }}">Ver todos</a>
+  </div>
+  <div class="grid three">
+    {% for project in featured_projects %}
+      <article class="card project-card">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.summary }}</p>
+        <div class="tags">
+          {% for tag in project.stack %}
+            <a class="tag" href="{{ url_for('projects_by_tag', tag=tag) }}">{{ tag }}</a>
+          {% endfor %}
+        </div>
+        <a href="{{ url_for('project_detail', slug=project.slug) }}">Ver detalle</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

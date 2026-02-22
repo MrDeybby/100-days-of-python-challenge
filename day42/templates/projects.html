@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Proyectos | Portafolio{% endblock %}
+
+{% block content %}
+<section>
+  <p class="badge">Proyectos</p>
+  <h1>Portafolio de proyectos</h1>
+  <p>Estos son algunos trabajos en analisis de datos e ingenieria con Python.</p>
+  {% if active_tag %}
+    <p>
+      Filtrando por etiqueta:
+      <strong>{{ active_tag }}</strong>
+      <a href="{{ url_for('projects') }}">Limpiar filtro</a>
+    </p>
+  {% endif %}
+
+  <div class="grid three">
+    {% for project in projects %}
+      <article class="card project-card">
+        <h2>{{ project.title }}</h2>
+        <p>{{ project.summary }}</p>
+        <div class="tags">
+          {% for tag in project.stack %}
+            <a
+              class="tag{% if active_tag and tag|lower == active_tag|lower %} active{% endif %}"
+              href="{{ url_for('projects_by_tag', tag=tag) }}"
+            >{{ tag }}</a>
+          {% endfor %}
+        </div>
+        <a href="{{ url_for('project_detail', slug=project.slug) }}">Abrir proyecto</a>
+      </article>
+    {% else %}
+      <article class="card">
+        <p>No se encontraron proyectos con esta etiqueta.</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
