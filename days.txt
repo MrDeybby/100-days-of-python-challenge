@@ -36,3 +36,6 @@ Day 35: Expenses app: final GUI project
 Day 36: Hello Flask: Flask Basics
 Day 37: Personal blog: routes and templates
 Day 38: Contact form: forms and entries
+Day 39: User registration: database integration
+Day 40: Mini Weather API: REST APIs
+Day 41: Flask deployment: publishing apps

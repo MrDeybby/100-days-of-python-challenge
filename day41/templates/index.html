@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ app_name }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+</head>
+<body>
+  <main class="container">
+    <h1>{{ app_name }}</h1>
+    <p>Proyecto simple para practicar despliegue de Flask en produccion.</p>
+
+    <section class="card">
+      <h2>Estado</h2>
+      <p>Entorno actual: <strong>{{ env_name }}</strong></p>
+      <p>Health check disponible en <code>/health</code>.</p>
+    </section>
+  </main>
+</body>
+</html>

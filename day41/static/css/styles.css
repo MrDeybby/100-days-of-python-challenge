@@ -1,0 +1,47 @@
+:root {
+  --bg: #f4f7fb;
+  --text: #1e293b;
+  --card: #ffffff;
+  --accent: #1d4ed8;
+  --muted: #64748b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(140deg, #e2e8f0, #f8fafc 55%);
+  color: var(--text);
+}
+
+.container {
+  max-width: 780px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: var(--muted);
+}
+
+.card {
+  margin-top: 2rem;
+  background: var(--card);
+  border: 1px solid #dbe3ef;
+  border-left: 6px solid var(--accent);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+}
+
+code {
+  background: #eff6ff;
+  padding: 0.1rem 0.3rem;
+  border-radius: 6px;
+}
