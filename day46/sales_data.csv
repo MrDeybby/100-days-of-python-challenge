@@ -1,0 +1,366 @@
+order_id,order_date,product,category,quantity,unit_price,region,sales_channel
+ORD-10000,2025-03-15,Laptop Pro 14,Electronics,6,1432.13,North,Retail
+ORD-10001,2025-02-16,Backpack,Accessories,4,54.91,West,Retail
+ORD-10002,2025-04-12,Office Chair,Furniture,2,227.64,East,Online
+ORD-10003,2025-11-22,Notebook Pack,Stationery,4,16.7,South,Online
+ORD-10004,2025-01-28,Backpack,Accessories,6,53.92,South,Wholesale
+ORD-10005,2025-03-24,Wireless Mouse,Electronics,3,35.87,East,Wholesale
+ORD-10006,2025-08-21,Office Chair,Furniture,6,250.99, north ,Wholesale
+ORD-10007,2025-08-31,Wireless Mouse,Electronics,6,40.68,East,Retail
+ORD-10008,2025-07-29,Office Chair,Furniture,5,279.78,East,Retail
+ORD-10009,2025-01-12,Standing Desk,Furniture,5,449.2,West,Wholesale
+ORD-10010,2025-07-04,Pen Set,Stationery,2,13.38,West,Wholesale
+ORD-10011,2025-09-12,Desk Lamp,Furniture,0,39.87,South,Wholesale
+ORD-10012,2025-09-12,Wireless Mouse,Electronics,4,35.08,East,Retail
+ORD-10013,2025-06-16,Noise-Canceling Headphones,Electronics,1,254.82,South,Wholesale
+ORD-10014,2025-06-14,Backpack,Accessories,6,48.87,North,Retail
+ORD-10015,2025-06-29,Pen Set,Stationery,5,14.31,East,Retail
+ORD-10016,2025-08-26,Office Chair,Furniture,1,264.24,North,Retail
+ORD-10017,2025-12-28,Desk Lamp,Furniture,1,41.32,East,RETAIL
+ORD-10018,2025-12-16,Noise-Canceling Headphones,Electronics,2,244.25,South,Retail
+ORD-10019,2025-07-18,Wireless Mouse,Electronics,5,33.49, east ,Wholesale
+ORD-10020,2025-11-24,Office Chair,Furniture,1,278.62,East,Wholesale
+ORD-10021,2025-12-22,Notebook Pack,Stationery,6,16.08,North,Online
+ORD-10022,2025-10-30,Laptop Pro 14,Electronics,3,1172.23,East,Online
+ORD-10023,2025-12-20,Backpack,Accessories,7,47.74,West,Online
+ORD-10024,2025-11-23,Pen Set,Stationery,2,11.72,South,Retail
+ORD-10025,2025-01-12,Notebook Pack,Stationery,6,22.05,North,Online
+ORD-10026,2025-08-07,Pen Set,Stationery,3,11.14,West,Wholesale
+ORD-10027,2025-03-25,Office Chair,Furniture,0,234.71,West,Online
+ORD-10028,2025-01-31,Notebook Pack,Stationery,5,21.09,East,Wholesale
+ORD-10029,2025-05-26,Wireless Mouse,Electronics,1,36.59,South,Wholesale
+ORD-10030,2025-09-22,Office Chair,Furniture,1,286.93,North,Wholesale
+ORD-10031,2025-12-07,Office Chair,Furniture,2,269.61,West,Online
+ORD-10032,2025-12-07,Mechanical Keyboard,Electronics,6,95.61,West,Wholesale
+ORD-10033,2025-06-05,Desk Lamp,Furniture,7,53.86,East,Online
+ORD-10034,2025-05-11,Pen Set,Stationery,6,10.52,North,Online
+ORD-10035,2025-12-03,Pen Set,Stationery,7,11.57, south ,Online
+ORD-10036,2025-10-21,Wireless Mouse,Electronics,2,38.03,South,Wholesale
+ORD-10037,2025-11-07,Noise-Canceling Headphones,Electronics,6,193.75,North,Online
+ORD-10038,2025-02-04,Mechanical Keyboard,Electronics,1,95.36,West,Online
+ORD-10039,2025-11-04,Laptop Pro 14,Electronics,6,1490.19,East,Wholesale
+ORD-10040,2025-11-01,Notebook Pack,Stationery,1,19.0,South,Wholesale
+ORD-10041,2025-02-21,Noise-Canceling Headphones,Electronics,1,213.52,South,Retail
+ORD-10042,2025-09-02,Office Chair,Furniture,3,251.88,West,Wholesale
+ORD-10043,2025-11-06,Office Chair,Furniture,7,304.66,West,Retail
+ORD-10044,2025-12-14,Laptop Pro 14,Electronics,2,1433.15,East,Retail
+ORD-10045,2025-12-08,Laptop Pro 14,Electronics,4,1480.26,South,Retail
+ORD-10046,2025-07-09,Backpack,Accessories,7,59.73,East,Online
+ORD-10047,2025-06-20,Wireless Mouse,Electronics,4,40.44,East,Retail
+ORD-10048,2025-09-24,Pen Set,Stationery,1,10.62,South,Wholesale
+ORD-10049,2025-11-24,Notebook Pack,Stationery,6,17.25,East,Online
+ORD-10050,2025-03-06,Laptop Pro 14,Electronics,7,1203.99,East,Wholesale
+ORD-10051,2025-05-18,Backpack,Accessories,1,62.54,South,Online
+ORD-10052,2025-02-04,Wireless Mouse,Electronics,1,,South,Wholesale
+ORD-10053,2025-06-11,Pen Set,Stationery,3,14.61,East,Online
+ORD-10054,2025-01-09,Desk Lamp,Furniture,2,40.17,East,Online
+ORD-10055,2025-01-11,Desk Lamp,Furniture,7,40.82,West,Online
+ORD-10056,2025-01-19,Backpack,Accessories,0,60.08,West,Online
+ORD-10057,2025-10-27,Desk Lamp,Furniture,6,52.15,West,Retail
+ORD-10058,2025-07-04,Laptop Pro 14,Electronics,5,1322.41,South,Online
+ORD-10059,2025-07-05,Laptop Pro 14,Electronics,2,1490.5, north ,Online
+ORD-10060,2025-09-16,Desk Lamp,Furniture,4,39.9,South,Wholesale
+ORD-10061,2025-07-17,Mechanical Keyboard,Electronics,5,81.72,South,Retail
+ORD-10062,2025-12-10,Standing Desk,Furniture,4,505.6,West,Retail
+ORD-10063,2025-05-27,Backpack,Accessories,2,56.16,East,Wholesale
+ORD-10064,2025-08-03,Office Chair,Furniture,7,224.75,South,Retail
+ORD-10065,2025-08-14,Noise-Canceling Headphones,Electronics,4,232.93,South,Online
+ORD-10066,2025-08-17,Notebook Pack,Stationery,4,18.99,East,Wholesale
+ORD-10067,2025-05-21,Notebook Pack,Stationery,4,17.56,South,Online
+ORD-10068,2025-01-21,Wireless Mouse,Electronics,6,34.43,East,ONLINE
+ORD-10069,2025-03-29,Office Chair,Furniture,6,259.72,East,Wholesale
+ORD-10070,2025-12-30,Wireless Mouse,Electronics,1,34.1,North,Wholesale
+ORD-10071,2025-09-17,Noise-Canceling Headphones,Electronics,1,222.61,North,Retail
+ORD-10072,2025-11-03,Pen Set,Stationery,2,10.88,West,Retail
+ORD-10073,2025-03-31,Laptop Pro 14,Electronics,4,1092.32,West,Wholesale
+ORD-10074,2025-06-28,Laptop Pro 14,Electronics,2,1256.78,South,Online
+ORD-10075,2025-09-22,Standing Desk,Furniture,5,554.48,South,Wholesale
+ORD-10076,2025-06-26,Standing Desk,Furniture,3,571.59,South,Wholesale
+ORD-10077,2025-01-09,Noise-Canceling Headphones,Electronics,3,223.14,South,Wholesale
+ORD-10078,2025-05-04,Backpack,Accessories,1,47.3,East,Retail
+ORD-10079,2025-09-18,Standing Desk,Furniture,1,542.98,West,Wholesale
+ORD-10080,2025-11-26,Desk Lamp,Furniture,5,55.59,South,Wholesale
+ORD-10081,2025-02-09,Pen Set,Stationery,4,13.34,West,Online
+ORD-10082,2025-05-07,Mechanical Keyboard,Electronics,5,77.97,West,Retail
+ORD-10083,2025-03-23,Noise-Canceling Headphones,Electronics,7,245.17,East,Retail
+ORD-10084,2025-01-14,Pen Set,Stationery,2,10.43,West,Wholesale
+ORD-10085,2025-11-28,Laptop Pro 14,Electronics,7,1404.42,North,ONLINE
+ORD-10086,2025-07-07,Desk Lamp,Furniture,7,38.78,East,Wholesale
+ORD-10087,2025-09-17,Office Chair,Furniture,6,309.75,East,Retail
+ORD-10088,2025-03-10,Noise-Canceling Headphones,Electronics,7,207.22,South,Wholesale
+ORD-10089,2025-11-09,Notebook Pack,Stationery,3,19.44,East,Wholesale
+ORD-10090,2025-07-01,Standing Desk,Furniture,2,478.15, south ,Online
+ORD-10091,2025-12-18,Backpack,Accessories,5,56.0,West,Retail
+ORD-10092,2025-03-27,Standing Desk,Furniture,3,582.54,West,Wholesale
+ORD-10093,2025-05-07,Laptop Pro 14,Electronics,3,1174.8,West,Online
+ORD-10094,2025-10-14,Mechanical Keyboard,Electronics,5,93.65,East,Wholesale
+ORD-10095,2025-06-05,Mechanical Keyboard,Electronics,6,96.74,East,Online
+ORD-10096,2025-01-14,Backpack,Accessories,1,49.02,North,Online
+ORD-10097,2025-08-20,Mechanical Keyboard,Electronics,4,78.33,South,Wholesale
+ORD-10098,2025-04-21,Laptop Pro 14,Electronics,7,,South,ONLINE
+ORD-10099,2025-07-21,Wireless Mouse,Electronics,4,34.41,West,Retail
+ORD-10100,2025-03-30,Pen Set,Stationery,5,13.48,East,Online
+ORD-10101,2025-04-27,Office Chair,Furniture,4,236.65, north ,Online
+ORD-10102,2025-01-12,Backpack,Accessories,6,60.39,North,Retail
+ORD-10103,2025-11-24,Office Chair,Furniture,1,285.39,West,Wholesale
+ORD-10104,2025-06-15,Pen Set,Stationery,4,14.93,East,Wholesale
+ORD-10105,2025-10-28,Wireless Mouse,Electronics,5,35.55,North,WHOLESALE
+ORD-10106,2025-03-02,Laptop Pro 14,Electronics,5,1359.88,West,Online
+ORD-10107,2025-10-17,Mechanical Keyboard,Electronics,1,101.45, east ,ONLINE
+ORD-10108,2025-12-29,Backpack,Accessories,4,49.54,North,Wholesale
+ORD-10109,2025-05-06,Wireless Mouse,Electronics,2,38.07, east ,Wholesale
+ORD-10110,2025-03-26,Pen Set,Stationery,2,11.42,North,Retail
+ORD-10111,2025-02-24,Standing Desk,Furniture,6,553.62, south ,Wholesale
+ORD-10112,2025-07-09,Standing Desk,Furniture,3,426.06,East,Retail
+ORD-10113,2025-12-25,Noise-Canceling Headphones,Electronics,7,195.26,West,Online
+ORD-10114,2025-11-17,Mechanical Keyboard,Electronics,5,95.11,East,Wholesale
+ORD-10115,2025-07-03,Office Chair,Furniture,1,311.02,North,ONLINE
+ORD-10116,2025-12-24,Mechanical Keyboard,Electronics,2,102.4,East,Retail
+ORD-10117,2025-07-04,Standing Desk,Furniture,5,523.54,South,Online
+ORD-10118,2025-02-17,Wireless Mouse,Electronics,6,39.33,North,Wholesale
+ORD-10119,2025-12-23,Office Chair,Furniture,6,249.92,North,Retail
+ORD-10120,2025-01-17,Standing Desk,Furniture,1,592.19,East,Retail
+ORD-10121,2025-02-08,Wireless Mouse,Electronics,3,42.02,West,Retail
+ORD-10122,2025-02-20,Backpack,Accessories,3,58.91,West,Wholesale
+ORD-10123,2025-05-17,Standing Desk,Furniture,2,438.78,East,Retail
+ORD-10124,2025-05-28,Notebook Pack,Stationery,6,20.86,East,Wholesale
+ORD-10125,2025-08-26,Notebook Pack,Stationery,1,21.39,South,Online
+ORD-10126,2025-11-07,Office Chair,Furniture,1,256.29,East,Online
+ORD-10127,2025-04-14,Laptop Pro 14,Electronics,7,1393.13,South,Retail
+ORD-10128,2025-02-18,Standing Desk,Furniture,3,590.83,West,Wholesale
+ORD-10129,2025-02-27,Backpack,Accessories,2,47.41,West,Online
+ORD-10130,2025-05-27,Noise-Canceling Headphones,Electronics,7,194.23,North,Wholesale
+ORD-10131,2025-12-07,Pen Set,Stationery,2,11.84,South,Online
+ORD-10132,2025-10-17,Notebook Pack,Stationery,5,21.95, south ,Retail
+ORD-10133,2025-06-08,Mechanical Keyboard,Electronics,2,93.0,North,Wholesale
+ORD-10134,2025-04-27,Desk Lamp,Furniture,5,46.55,East,Retail
+ORD-10135,2025-08-02,Standing Desk,Furniture,3,538.19,North,Wholesale
+ORD-10136,2025-12-29,Office Chair,Furniture,2,289.64,South,Wholesale
+ORD-10137,2025-09-22,Noise-Canceling Headphones,Electronics,3,238.96,West,Online
+ORD-10138,2025-05-29,Office Chair,Furniture,5,234.08,South,Wholesale
+ORD-10139,2025-12-10,Noise-Canceling Headphones,Electronics,1,195.12,West,Wholesale
+ORD-10140,2025-04-11,Mechanical Keyboard,Electronics,7,86.71,West,Wholesale
+ORD-10141,2025-04-23,Standing Desk,Furniture,5,525.13,East,Online
+ORD-10142,2025-12-18,Noise-Canceling Headphones,Electronics,-1,212.11,East,Retail
+ORD-10143,2025-04-28,Office Chair,Furniture,3,271.94,West,Retail
+ORD-10144,2025-12-30,Backpack,Accessories,7,68.27,West,Online
+ORD-10145,2025-03-29,Notebook Pack,Stationery,5,17.38,South,Retail
+ORD-10146,2025-01-15,Desk Lamp,Furniture,6,,South,Retail
+ORD-10147,2025-10-10,Notebook Pack,Stationery,5,18.11,South,Online
+ORD-10148,2025-12-09,Office Chair,Furniture,5,323.01,North,Retail
+ORD-10149,2025-08-31,Notebook Pack,Stationery,2,21.29,North,Retail
+ORD-10150,2025-01-12,Mechanical Keyboard,Electronics,5,112.21,East,Online
+ORD-10151,2025-04-27,Laptop Pro 14,Electronics,3,1223.89,South,Wholesale
+ORD-10152,2025-03-27,Desk Lamp,Furniture,6,45.75,East,Wholesale
+ORD-10153,2025-02-22,Pen Set,Stationery,2,10.66,South,Retail
+ORD-10154,2025-05-04,Mechanical Keyboard,Electronics,1,,East,Wholesale
+ORD-10155,2025-11-11,Pen Set,Stationery,1,12.79,North,Online
+ORD-10156,2025-09-18,Standing Desk,Furniture,2,504.8,South,Online
+ORD-10157,2025-10-02,Noise-Canceling Headphones,Electronics,5,185.72,North,Online
+ORD-10158,2025-12-02,Desk Lamp,Furniture,7,50.01,South,Online
+ORD-10159,2025-03-12,Pen Set,Stationery,4,13.35,South,Wholesale
+ORD-10160,2025-12-06,Noise-Canceling Headphones,Electronics,6,180.73,East,Retail
+ORD-10161,2025-10-04,Office Chair,Furniture,2,279.37,West,Online
+ORD-10162,2025-01-04,Office Chair,Furniture,4,,North,Retail
+ORD-10163,2025-11-21,Pen Set,Stationery,6,12.49,South,Online
+ORD-10164,2025-06-01,Office Chair,Furniture,2,243.27,North,Online
+ORD-10165,2025-11-11,Office Chair,Furniture,5,258.52,East,Retail
+ORD-10166,2025-10-02,Office Chair,Furniture,2,317.69,North,Online
+ORD-10167,2025-11-08,Wireless Mouse,Electronics,2,41.23, north ,Wholesale
+ORD-10168,2025-12-04,Laptop Pro 14,Electronics,3,1296.89,North,Wholesale
+ORD-10169,2025-12-21,Backpack,Accessories,3,55.5,South,Online
+ORD-10170,2025-09-01,Backpack,Accessories,1,59.72,South,Retail
+ORD-10171,2025-12-07,Office Chair,Furniture,6,255.24,West,Retail
+ORD-10172,2025-07-14,Noise-Canceling Headphones,Electronics,4,207.54,North,Online
+ORD-10173,2025-03-20,Wireless Mouse,Electronics,7,40.33,East,Wholesale
+ORD-10174,2025-02-07,Wireless Mouse,Electronics,5,42.99, west ,WHOLESALE
+ORD-10175,2025-09-06,Standing Desk,Furniture,7,413.09,North,Wholesale
+ORD-10176,2025-12-27,Office Chair,Furniture,1,255.39,South,Wholesale
+ORD-10177,2025-10-10,Standing Desk,Furniture,4,511.01,North,Wholesale
+ORD-10178,2025-05-23,Backpack,Accessories,5,54.99,West,Retail
+ORD-10179,2025-08-10,Office Chair,Furniture,6,259.48,North,Online
+ORD-10180,2025-12-10,Laptop Pro 14,Electronics,2,,East,Retail
+ORD-10181,2025-09-01,Office Chair,Furniture,5,285.35,East,Retail
+ORD-10182,2025-07-06,Office Chair,Furniture,1,256.79,West,Online
+ORD-10183,2025-01-30,Office Chair,Furniture,2,311.63,South,RETAIL
+ORD-10184,2025-03-16,Mechanical Keyboard,Electronics,4,111.01,East,Retail
+ORD-10185,2025-12-08,Noise-Canceling Headphones,Electronics,3,188.37,North,Wholesale
+ORD-10186,2025-12-28,Laptop Pro 14,Electronics,7,1210.67,North,Online
+ORD-10187,2025-04-15,Backpack,Accessories,4,48.82,North,Wholesale
+ORD-10188,2025-04-20,Desk Lamp,Furniture,6,40.53,East,Retail
+ORD-10189,2025-09-15,Standing Desk,Furniture,4,495.63,South,Retail
+ORD-10190,2025-11-01,Notebook Pack,Stationery,1,18.51,East,Online
+ORD-10191,2025-12-23,Laptop Pro 14,Electronics,2,1267.56,West,Wholesale
+ORD-10192,2025-05-13,Noise-Canceling Headphones,Electronics,2,194.89,West,Online
+ORD-10193,2025-10-20,Standing Desk,Furniture,4,573.91,North,Retail
+ORD-10194,2025-02-15,Office Chair,Furniture,4,260.34,East,Retail
+ORD-10195,2025-09-03,Wireless Mouse,Electronics,2,32.95,West,Online
+ORD-10196,2025-12-08,Pen Set,Stationery,1,12.69,South,Online
+ORD-10197,2025-06-03,Backpack,Accessories,7,59.8,East,Retail
+ORD-10198,2025-10-20,Laptop Pro 14,Electronics,4,1248.27,West,Wholesale
+ORD-10199,2025-08-21,Desk Lamp,Furniture,4,49.61,South,Retail
+ORD-10200,2025-01-17,Notebook Pack,Stationery,3,21.15,East,Retail
+ORD-10201,2025-02-17,Office Chair,Furniture,3,286.19,North,Wholesale
+ORD-10202,2025-04-30,Laptop Pro 14,Electronics,7,1114.88,East,Online
+ORD-10203,2025-03-05,Pen Set,Stationery,6,12.5,South,Online
+ORD-10204,2025-03-29,Notebook Pack,Stationery,4,15.8,West,Retail
+ORD-10205,2025-10-27,Notebook Pack,Stationery,4,17.9,North,Retail
+ORD-10206,2025-01-06,Backpack,Accessories,6,52.75,South,Wholesale
+ORD-10207,2025-10-06,Noise-Canceling Headphones,Electronics,4,220.33,North,Wholesale
+ORD-10208,2025-10-05,Office Chair,Furniture,7,303.31,North,Wholesale
+ORD-10209,2025-05-29,Laptop Pro 14,Electronics,4,1285.04,West,Online
+ORD-10210,2025-02-28,Laptop Pro 14,Electronics,6,1439.0,South,Online
+ORD-10211,2025-12-09,Office Chair,Furniture,5,278.93,North,Online
+ORD-10212,2025-09-02,Desk Lamp,Furniture,7,53.26,North,Wholesale
+ORD-10213,2025-11-30,Wireless Mouse,Electronics,7,39.24,South,Online
+ORD-10214,2025-10-11,Standing Desk,Furniture,2,491.04,West,Retail
+ORD-10215,2025-11-19,Notebook Pack,Stationery,0,19.41,North,Online
+ORD-10216,2025-02-02,Mechanical Keyboard,Electronics,6,103.39,North,Online
+ORD-10217,2025-02-19,Office Chair,Furniture,4,287.79,West,Online
+ORD-10218,2025-03-31,Office Chair,Furniture,1,299.48,South,Retail
+ORD-10219,2025-07-16,Office Chair,Furniture,4,303.79,West,Retail
+ORD-10220,2025-02-19,Mechanical Keyboard,Electronics,2,90.97,South,WHOLESALE
+ORD-10221,2025-05-24,Laptop Pro 14,Electronics,2,1395.79,West,Retail
+ORD-10222,2025-01-19,Pen Set,Stationery,4,11.67,East,Wholesale
+ORD-10223,2025-03-10,Wireless Mouse,Electronics,7,35.93,East,Wholesale
+ORD-10224,2025-04-16,Notebook Pack,Stationery,5,17.02,East,Retail
+ORD-10225,2025-04-16,Pen Set,Stationery,6,11.38,East,Online
+ORD-10226,2025-12-17,Standing Desk,Furniture,4,584.23,South,Retail
+ORD-10227,2025-02-05,Laptop Pro 14,Electronics,7,1217.94,South,Retail
+ORD-10228,2025-11-19,Notebook Pack,Stationery,4,20.85,North,Retail
+ORD-10229,2025-08-09,Backpack,Accessories,1,62.41,South,Retail
+ORD-10230,2025-01-12,Laptop Pro 14,Electronics,6,1473.67,South,Wholesale
+ORD-10231,2025-05-30,Mechanical Keyboard,Electronics,6,84.27,West,WHOLESALE
+ORD-10232,2025-12-16,Mechanical Keyboard,Electronics,3,99.38,West,Retail
+ORD-10233,2025-01-22,Laptop Pro 14,Electronics,5,1446.27,South,Wholesale
+ORD-10234,2025-11-26,Standing Desk,Furniture,2,471.78,South,Online
+ORD-10235,2025-07-12,Noise-Canceling Headphones,Electronics,1,184.72,West,Wholesale
+ORD-10236,2025-11-18,Standing Desk,Furniture,3,508.25,South,Retail
+ORD-10237,2025-10-03,Laptop Pro 14,Electronics,2,1145.14,North,Wholesale
+ORD-10238,2025-11-09,Pen Set,Stationery,5,13.87,West,Online
+ORD-10239,2025-04-14,Wireless Mouse,Electronics,3,33.81,East,Retail
+ORD-10240,2025-09-11,Desk Lamp,Furniture,3,50.54,West,Retail
+ORD-10241,2025-11-05,Backpack,Accessories,2,63.09,West,Retail
+ORD-10242,2025-07-02,Standing Desk,Furniture,4,586.17,West,Retail
+ORD-10243,2025-05-03,Wireless Mouse,Electronics,1,36.49,South,Retail
+ORD-10244,2025-03-08,Office Chair,Furniture,5,,East,Retail
+ORD-10245,2025-12-19,Notebook Pack,Stationery,1,16.41,North,Retail
+ORD-10246,2025-05-31,Desk Lamp,Furniture,3,42.4,West,Retail
+ORD-10247,2025-09-07,Noise-Canceling Headphones,Electronics,7,202.6,South,Retail
+ORD-10248,2025-07-12,Standing Desk,Furniture,1,573.11,South,Online
+ORD-10249,2025-12-02,Mechanical Keyboard,Electronics,3,111.98,West,Retail
+ORD-10250,2025-07-19,Notebook Pack,Stationery,5,18.94,South,Retail
+ORD-10251,2025-12-26,Office Chair,Furniture,3,240.63,South,Online
+ORD-10252,2025-01-08,Mechanical Keyboard,Electronics,2,82.87,West,Online
+ORD-10253,2025-11-06,Backpack,Accessories,0,50.17,North,Retail
+ORD-10254,2025-08-05,Office Chair,Furniture,6,222.15,West,Retail
+ORD-10255,2025-08-29,Standing Desk,Furniture,6,523.09,West,Retail
+ORD-10256,2025-06-25,Notebook Pack,Stationery,3,15.63,East,Retail
+ORD-10257,2025-08-11,Laptop Pro 14,Electronics,2,1409.05,North,Online
+ORD-10258,2025-03-01,Desk Lamp,Furniture,2,42.27,South,Online
+ORD-10259,2025-03-15,Wireless Mouse,Electronics,4,30.0, east ,Wholesale
+ORD-10260,2025-10-16,Notebook Pack,Stationery,7,22.29,North,Online
+ORD-10261,2025-06-02,Pen Set,Stationery,4,10.94,East,Online
+ORD-10262,2025-02-17,Standing Desk,Furniture,4,467.95,East,Online
+ORD-10263,2025-06-19,Noise-Canceling Headphones,Electronics,6,240.17,West,Wholesale
+ORD-10264,2025-02-04,Notebook Pack,Stationery,2,21.97,East,Retail
+ORD-10265,2025-09-04,Backpack,Accessories,5,48.32,West,Wholesale
+ORD-10266,2025-10-20,Laptop Pro 14,Electronics,6,1424.51,West,Online
+ORD-10267,2025-06-28,Desk Lamp,Furniture,5,41.0,North,Online
+ORD-10268,2025-06-05,Mechanical Keyboard,Electronics,4,95.29,North,Wholesale
+ORD-10269,2025-04-29,Desk Lamp,Furniture,0,42.72,South,Wholesale
+ORD-10270,2025-11-08,Pen Set,Stationery,-1,12.67,South,Wholesale
+ORD-10271,2025-01-09,Wireless Mouse,Electronics,3,40.44,West,Wholesale
+ORD-10272,2025-07-15,Backpack,Accessories,7,56.54,North,WHOLESALE
+ORD-10273,2025-06-15,Noise-Canceling Headphones,Electronics,1,205.71,North,Wholesale
+ORD-10274,2025-01-17,Mechanical Keyboard,Electronics,1,86.07,North,Retail
+ORD-10275,2025-12-21,Office Chair,Furniture,7,273.47,North,Retail
+ORD-10276,2025-09-15,Pen Set,Stationery,3,14.89,South,Online
+ORD-10277,2025-09-06,Laptop Pro 14,Electronics,6,1343.91,East,Retail
+ORD-10278,2025-04-08,Office Chair,Furniture,4,309.67,North,ONLINE
+ORD-10279,2025-06-30,Backpack,Accessories,4,52.0,South,Online
+ORD-10280,2025-06-28,Mechanical Keyboard,Electronics,5,102.19,South,Retail
+ORD-10281,2025-03-06,Wireless Mouse,Electronics,6,29.95, east ,Online
+ORD-10282,2025-04-10,Notebook Pack,Stationery,2,15.54,North,Wholesale
+ORD-10283,2025-04-30,Noise-Canceling Headphones,Electronics,3,180.62,South,Wholesale
+ORD-10284,2025-01-25,Laptop Pro 14,Electronics,4,1171.0,West,Wholesale
+ORD-10285,2025-10-07,Pen Set,Stationery,1,11.68,South,Online
+ORD-10286,2025-09-27,Laptop Pro 14,Electronics,1,1036.41,West,Wholesale
+ORD-10287,2025-04-11,Desk Lamp,Furniture,6,39.01,South,Online
+ORD-10288,2025-10-04,Laptop Pro 14,Electronics,7,1449.0,South,Wholesale
+ORD-10289,2025-07-03,Standing Desk,Furniture,3,475.57,East,Retail
+ORD-10290,2025-03-02,Desk Lamp,Furniture,7,55.67,North,Wholesale
+ORD-10291,2025-08-02,Standing Desk,Furniture,3,586.48,South,Retail
+ORD-10292,2025-04-18,Noise-Canceling Headphones,Electronics,5,184.17,South,Online
+ORD-10293,2025-11-23,Desk Lamp,Furniture,2,44.07,South,Wholesale
+ORD-10294,2025-04-04,Notebook Pack,Stationery,1,18.58,South,Wholesale
+ORD-10295,2025-12-06,Backpack,Accessories,5,53.67,East,Retail
+ORD-10296,2025-08-04,Standing Desk,Furniture,7,543.41,North,Online
+ORD-10297,2025-02-04,Desk Lamp,Furniture,4,51.72,South,Online
+ORD-10298,2025-07-18,Pen Set,Stationery,4,10.49,South,Retail
+ORD-10299,2025-08-17,Noise-Canceling Headphones,Electronics,3,207.51,West,Wholesale
+ORD-10300,2025-05-09,Mechanical Keyboard,Electronics,7,109.25,North,Wholesale
+ORD-10301,2025-06-17,Office Chair,Furniture,6,279.45,East,Wholesale
+ORD-10302,2025-08-04,Pen Set,Stationery,7,13.14, west ,Retail
+ORD-10303,2025-03-20,Pen Set,Stationery,5,13.31,North,Online
+ORD-10304,2025-01-31,Noise-Canceling Headphones,Electronics,2,253.09,North,Online
+ORD-10305,2025-08-11,Mechanical Keyboard,Electronics,5,, north ,WHOLESALE
+ORD-10306,2025-03-29,Backpack,Accessories,6,63.39,South,Wholesale
+ORD-10307,2025-06-07,Office Chair,Furniture,4,314.4,West,Online
+ORD-10308,2025-10-28,Notebook Pack,Stationery,3,16.56, south ,Retail
+ORD-10309,2025-05-28,Backpack,Accessories,1,52.53,South,Online
+ORD-10310,2025-04-23,Office Chair,Furniture,4,260.18,North,Wholesale
+ORD-10311,2025-05-15,Office Chair,Furniture,6,228.19,East,Online
+ORD-10312,2025-01-28,Laptop Pro 14,Electronics,6,1434.02,North,Online
+ORD-10313,2025-03-27,Laptop Pro 14,Electronics,6,1224.6,West,Retail
+ORD-10314,2025-02-05,Office Chair,Furniture,2,226.38,West,Online
+ORD-10315,2025-06-02,Desk Lamp,Furniture,6,47.64,South,Online
+ORD-10316,2025-07-29,Pen Set,Stationery,3,14.39,North,Retail
+ORD-10317,2025-03-06,Desk Lamp,Furniture,0,39.1,West,Online
+ORD-10318,2025-08-05,Laptop Pro 14,Electronics,6,,South,Retail
+ORD-10319,2025-03-22,Noise-Canceling Headphones,Electronics,2,225.14,West,Wholesale
+ORD-10320,2025-04-01,Notebook Pack,Stationery,2,17.44,East,Wholesale
+ORD-10321,2025-05-23,Office Chair,Furniture,3,271.66,North,Wholesale
+ORD-10322,2025-02-15,Standing Desk,Furniture,6,554.94,North,Wholesale
+ORD-10323,2025-11-22,Laptop Pro 14,Electronics,5,1383.53,East,Wholesale
+ORD-10324,2025-12-16,Standing Desk,Furniture,2,535.55,East,Wholesale
+ORD-10325,2025-01-22,Laptop Pro 14,Electronics,2,1251.06,North,Retail
+ORD-10326,2025-08-28,Office Chair,Furniture,3,287.72,West,Retail
+ORD-10327,2025-07-22,Notebook Pack,Stationery,1,19.1,East,Online
+ORD-10328,2025-09-25,Laptop Pro 14,Electronics,1,1304.86,South,Retail
+ORD-10329,2025-10-13,Laptop Pro 14,Electronics,6,1196.75,North,Retail
+ORD-10330,2025-07-04,Wireless Mouse,Electronics,3,31.23,North,Wholesale
+ORD-10331,2025-03-10,Pen Set,Stationery,6,13.12,South,Online
+ORD-10332,2025-07-10,Laptop Pro 14,Electronics,5,1121.64, east ,Retail
+ORD-10333,2025-08-07,Notebook Pack,Stationery,7,17.3,West,Retail
+ORD-10334,2025-06-18,Backpack,Accessories,7,49.38,East,Online
+ORD-10335,2025-05-26,Laptop Pro 14,Electronics,2,1123.26,East,Wholesale
+ORD-10336,2025-02-25,Noise-Canceling Headphones,Electronics,4,254.31,South,Retail
+ORD-10337,2025-12-16,Standing Desk,Furniture,0,520.44, north ,Retail
+ORD-10338,2025-02-20,Noise-Canceling Headphones,Electronics,4,207.04,East,Wholesale
+ORD-10339,2025-04-27,Noise-Canceling Headphones,Electronics,5,224.14,North,Retail
+ORD-10340,2025-04-06,Standing Desk,Furniture,0,,West,Retail
+ORD-10341,2025-09-23,Mechanical Keyboard,Electronics,4,90.76,North,RETAIL
+ORD-10342,2025-07-23,Desk Lamp,Furniture,5,53.13,North,Retail
+ORD-10343,2025-05-10,Backpack,Accessories,1,47.32, north ,Wholesale
+ORD-10344,2025-05-03,Wireless Mouse,Electronics,7,36.07,West,Wholesale
+ORD-10345,2025-05-16,Pen Set,Stationery,1,14.58,South,Wholesale
+ORD-10346,2025-09-01,Backpack,Accessories,6,,North,Online
+ORD-10347,2025-07-12,Notebook Pack,Stationery,5,21.68,South,Online
+ORD-10348,2025-03-14,Notebook Pack,Stationery,3,21.23,South,Wholesale
+ORD-10349,2025-05-07,Standing Desk,Furniture,7,489.12,South,Online
+ORD-10350,2025-07-01,Mechanical Keyboard,Electronics,5,99.19,North,Retail
+ORD-10351,2025-12-29,Mechanical Keyboard,Electronics,6,102.3,East,Online
+ORD-10352,2025-09-24,Pen Set,Stationery,3,13.39,North,Wholesale
+ORD-10353,2025-05-30,Noise-Canceling Headphones,Electronics,6,256.36,East,Retail
+ORD-10354,2025-05-25,Wireless Mouse,Electronics,5,33.19,East,Wholesale
+ORD-10355,2025-04-15,Notebook Pack,Stationery,5,19.72,South,Retail
+ORD-10356,2025-06-22,Office Chair,Furniture,1,298.55,East,Wholesale
+ORD-10357,2025-09-28,Laptop Pro 14,Electronics,5,1374.8,East,Online
+ORD-10358,2025-05-20,Mechanical Keyboard,Electronics,3,112.03,North,ONLINE
+ORD-10359,2025-01-10,Backpack,Accessories,3,61.9,South,Wholesale
+ORD-10224,2025-04-16,Notebook Pack,Stationery,5,17.02,East,Retail
+ORD-10042,2025-09-02,Office Chair,Furniture,3,251.88,West,Wholesale
+ORD-10285,2025-10-07,Pen Set,Stationery,1,11.68,South,Online
+ORD-10302,2025-08-04,Pen Set,Stationery,7,13.14, west ,Retail
+ORD-10056,2025-01-19,Backpack,Accessories,0,60.08,West,Online
