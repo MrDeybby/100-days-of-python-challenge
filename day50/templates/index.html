@@ -1,0 +1,45 @@
+﻿{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <form method="post" class="controls">
+    <label>
+      Ciudades (separadas por coma)
+      <input type="text" name="cities" value="{{ default_cities }}" placeholder="London, New York, Tokyo">
+    </label>
+    <label>
+      Unidades
+      <select name="units">
+        <option value="metric" {% if units == 'metric' %}selected{% endif %}>Métrico (°C)</option>
+        <option value="imperial" {% if units == 'imperial' %}selected{% endif %}>Imperial (°F)</option>
+      </select>
+    </label>
+    <button type="submit">Actualizar</button>
+  </form>
+
+  {% if results %}
+    <div class="cards">
+      {% for item in results %}
+        <article class="card">
+          <div class="card-header">
+            <div>
+              <h3>{{ item.city }}</h3>
+              <p class="country">{{ item.country }}</p>
+            </div>
+            <img src="https://openweathermap.org/img/wn/{{ item.icon }}@2x.png" alt="{{ item.description }}" width="72" height="72">
+          </div>
+          <div class="temp">{{ item.temp | round(1) }}{{ units_label }}</div>
+          <p class="desc">{{ item.description|capitalize }}</p>
+          <dl class="metrics">
+            <div><dt>Sensación</dt><dd>{{ item.feels_like | round(1) }}{{ units_label }}</dd></div>
+            <div><dt>Humedad</dt><dd>{{ item.humidity }}%</dd></div>
+            <div><dt>Presión</dt><dd>{{ item.pressure }} hPa</dd></div>
+            <div><dt>Viento</dt><dd>{{ item.wind }} {{ 'm/s' if units == 'metric' else 'mph' }}</dd></div>
+          </dl>
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="empty">Agrega tu API key y presiona "Actualizar" para ver el clima.</p>
+  {% endif %}
+</section>
+{% endblock %}

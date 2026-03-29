@@ -39,3 +39,12 @@ Day 38: Contact form: forms and entries
 Day 39: User registration: database integration
 Day 40: Mini Weather API: REST APIs
 Day 41: Flask deployment: publishing apps
+Day 42: Web Portfolio: Final Project with Flask
+Day 43: Matrix Calculator: NumPy
+Day 44: Data Cleaner: Pandas
+Day 45: Chart Generator: Matplotlib
+Day 46: Sales Analyzer: Data Analysis
+Day 47: Temperature Tracer: Visualization
+Day 48: Stock Tracker: Data Scraping
+Day 49: CLI Climate Panel
+Day 50: Web Climate Panel

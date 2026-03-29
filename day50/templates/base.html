@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel de Clima</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css', v=1) }}">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Panel de Clima</div>
+    <nav>
+      <a href="https://openweathermap.org/api" target="_blank" rel="noreferrer">OpenWeatherMap</a>
+      <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">Flask</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-stack">
+          {% for category, message in messages %}
+            <div class="flash {{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    Construido con Flask + OpenWeatherMap · Edita la lista de ciudades o las unidades y recarga.
+  </footer>
+</body>
+</html>
