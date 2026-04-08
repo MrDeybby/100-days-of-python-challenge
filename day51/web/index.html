@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguimiento de Gastos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">Día 51 · Flask + CSV</p>
+      <h1>Panel de Gastos</h1>
+      <p class="subtitle">Registra gastos rápidos, consulta totales y visualiza tus hábitos.</p>
+    </div>
+    <div class="pill">CSV local · Sin base de datos</div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Registrar gasto</h2>
+      <form id="expense-form">
+        <div class="grid">
+          <label>
+            Fecha
+            <input type="date" name="date" id="date" />
+          </label>
+          <label>
+            Categoría
+            <input type="text" name="category" id="category" placeholder="Comida, Transporte, etc." required />
+          </label>
+          <label>
+            Descripción
+            <input type="text" name="description" id="description" placeholder="Ej: Café de la mañana" />
+          </label>
+          <label>
+            Monto (USD)
+            <input type="number" name="amount" id="amount" step="0.01" min="0" required />
+          </label>
+        </div>
+        <button type="submit">Guardar</button>
+        <p id="form-message" role="alert"></p>
+      </form>
+    </section>
+
+    <section class="card">
+      <div class="section-header">
+        <h2>Últimos movimientos</h2>
+        <span id="total-count" class="pill pill-soft"></span>
+      </div>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Categoría</th>
+              <th>Descripción</th>
+              <th class="num">Monto</th>
+            </tr>
+          </thead>
+          <tbody id="expense-rows">
+            <tr><td colspan="4">Sin datos aún</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="grid-2">
+      <div class="card">
+        <div class="section-header">
+          <h2>Totales por categoría</h2>
+          <span id="total-spent" class="pill"></span>
+        </div>
+        <canvas id="category-chart" height="220"></canvas>
+      </div>
+      <div class="card">
+        <div class="section-header">
+          <h2>Flujo mensual</h2>
+          <span class="pill pill-soft">Histórico</span>
+        </div>
+        <canvas id="monthly-chart" height="220"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Backend Flask · CSV persistente en <code>backend/data/expenses.csv</code></p>
+    <p>Para iniciar: <code>python backend/app.py</code> y abre <code>http://localhost:5000</code></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
