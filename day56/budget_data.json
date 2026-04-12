@@ -1,0 +1,25 @@
+{
+  "ingresos": [
+    {
+      "descripcion": "Transporte",
+      "monto": 150.0,
+      "categoria": "Ingreso",
+      "fecha": "2026-04-09"
+    }
+  ],
+  "gastos": [
+    {
+      "descripcion": "Comida",
+      "monto": 10.0,
+      "categoria": "Comida",
+      "fecha": "2026-04-09"
+    },
+    {
+      "descripcion": "Salida",
+      "monto": 130.0,
+      "categoria": "Transporte",
+      "fecha": "2026-04-09"
+    }
+  ],
+  "objetivo_ahorro": 1000.0
+}
