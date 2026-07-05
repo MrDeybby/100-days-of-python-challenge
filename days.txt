@@ -48,3 +48,14 @@ Day 47: Temperature Tracer: Visualization
 Day 48: Stock Tracker: Data Scraping
 Day 49: CLI Climate Panel
 Day 50: Web Climate Panel
+Day 51: Expense Tracking
+Day 52: File Organizer
+Día 53: Juego de Tic-Tac-Toe
+Day 54: Mini chatbot
+Day 55: Music Organizer
+Day 56: Budget Planner
+Day 57: ASCII Art Generator
+Day 58: Pomodoro Timer
+Day 59: Markdown to HTML Converter
+Day 60: Personal Diary
+Day 61: Social media data extractor
